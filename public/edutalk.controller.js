@@ -15,7 +15,7 @@ function mainController($scope, $location, DataService, WebRTCService) {
   document.body.style.backgroundColor="black";
 
   // Initialize WebRTC Service Object
-  var webrtc = WebRTCService.initWebRTC('localhost:8888');
+  var webrtc = WebRTCService.initWebRTC('localhost:80');
 
   // Responsive containers
   var x = window.innerHeight;
